@@ -10,5 +10,7 @@ cookiecutter https://github.com/jchiang87/desc-package-template.git
 After creating your repository, `cd` into it and do
 ```
 git init
+git add .
+git commit -m "initial commit"
 ```
 It is now ready for pushing up to GitHub and connecting to [Travis CI](https://travis-ci.org/).
