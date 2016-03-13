@@ -4,7 +4,7 @@
 
 ### Usage:
 ```
-cookiecutter https://github.com/DarkEnergyScienceCollaboration/desc-package-template.git
+cookiecutter https://github.com/DarkEnergyScienceCollaboration/desc_package_template
 ```
 
 After creating your repository, `cd` into it and do
