@@ -4,7 +4,7 @@
 
 ### Usage:
 ```
-cookiecutter https://github.com/jchiang87/desc-package-template.git
+cookiecutter https://github.com/DarkEnergyScienceCollaboration/desc-package-template.git
 ```
 
 After creating your repository, `cd` into it and do
@@ -13,4 +13,4 @@ git init
 git add .
 git commit -m "initial commit"
 ```
-It is now ready for pushing up to GitHub and connecting to [Travis CI](https://travis-ci.org/).
+It is now ready for [pushing to GitHub](https://help.github.com/articles/create-a-repo/) and connecting to [Travis CI](https://travis-ci.org/).
