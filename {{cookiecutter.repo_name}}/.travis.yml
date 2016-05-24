@@ -1,7 +1,7 @@
 language: C
 
 install:
-  - travis_wait ./setup/travis_install.sh lsst-sims nose pandas
+  - travis_wait ./setup/travis_install.sh lsst-sims nose pandas pylint
   - export PATH="$HOME/miniconda/bin:$PATH"
   - source eups-setups.sh
   - pip install coveralls
@@ -12,7 +12,12 @@ install:
 cache:
   directories:
   - $HOME/miniconda.tarball
-  timeout: 360
+  timeout: 600
 
 script:
   - nosetests --with-coverage --cover-package=desc.{{cookiecutter.repo_name|lower}}
+#  - pylint --py3k `find . -name \*.py -print`
+#  - pylint --rcfile=.pylintrc `find . -name \*.py -print`
+
+after_success:
+  - coveralls
