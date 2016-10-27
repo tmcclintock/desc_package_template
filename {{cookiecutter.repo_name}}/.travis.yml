@@ -1,4 +1,8 @@
-language: C
+language: cpp
+os: linux
+sudo: required
+dist: trusty
+compiler: gcc
 
 install:
   - travis_wait 30 ./setup/travis_install.sh lsst-sims nose pandas pylint
