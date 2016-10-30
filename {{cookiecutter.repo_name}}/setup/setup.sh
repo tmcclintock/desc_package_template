@@ -8,5 +8,5 @@
 # PATH, etc..
 
 inst_dir=$( cd $(dirname $BASH_SOURCE)/..; pwd -P )
-eups declare {{cookiecutter.repo_name}} -r ${inst_dir} -t ${USER}
-setup {{cookiecutter.repo_name}} -t ${USER}
+eups declare {{cookiecutter.repo_name|lower}} -r ${inst_dir} -t ${USER}
+setup {{cookiecutter.repo_name|lower}} -t ${USER}

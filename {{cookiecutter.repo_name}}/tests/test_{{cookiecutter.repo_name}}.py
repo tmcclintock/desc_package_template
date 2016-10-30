@@ -7,7 +7,7 @@ import desc.{{cookiecutter.repo_name|lower}}
 class {{cookiecutter.repo_name}}TestCase(unittest.TestCase):
     def setUp(self):
         self.message = 'Hello, world'
-        
+
     def tearDown(self):
         pass
 
