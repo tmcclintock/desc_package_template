@@ -17,9 +17,9 @@ It is now ready for [pushing to GitHub](https://help.github.com/articles/create-
 
 You'll want to check that the package is set up the way you want it by browsing the files that `cookiecutter` made. Here are some things to watch out for:
 
-* The LICENSE file adopts the BSD license recommended by the CI group, with the following Copyright statement that you might want to edit: 
-``` 
-Copyright (c) 2017, the {{cookiecutter.repo_name}} contributors on GitHub:
+* The LICENSE file adopts the BSD license recommended by the CI group, with the following Copyright statement that you might want to edit:
+```
+Copyright (c) 2018, the {{cookiecutter.repo_name}} contributors on GitHub:
 https://github.com/LSSTDESC/{{cookiecutter.repo_name}}/graphs/contributors
 All rights reserved.
 ```
