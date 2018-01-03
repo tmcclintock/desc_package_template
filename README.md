@@ -4,7 +4,7 @@
 
 ### Usage:
 ```
-cookiecutter https://github.com/DarkEnergyScienceCollaboration/desc_package_template
+cookiecutter https://github.com/LSSTDESC/desc_package_template
 ```
 
 After creating your repository, `cd` into it and do
@@ -19,8 +19,7 @@ You'll want to check that the package is set up the way you want it by browsing 
 
 * The LICENSE file adopts the BSD license recommended by the CI group, with the following Copyright statement that you might want to edit:
 ```
-Copyright (c) 2018, the {{cookiecutter.repo_name}} contributors on GitHub:
-https://github.com/LSSTDESC/{{cookiecutter.repo_name}}/graphs/contributors
+Copyright (c) 2018, the {{cookiecutter.repo_name}} contributors on GitHub, https://github.com/LSSTDESC/{{cookiecutter.repo_name}}/graphs/contributors.
 All rights reserved.
 ```
 
