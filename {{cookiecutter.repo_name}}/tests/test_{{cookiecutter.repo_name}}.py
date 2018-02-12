@@ -13,7 +13,7 @@ class {{cookiecutter.repo_name}}TestCase(unittest.TestCase):
 
     def test_run(self):
         foo = desc.{{cookiecutter.repo_name|lower}}.{{cookiecutter.repo_name}}(self.message)
-        self.assertEquals(foo.run(), self.message)
+        self.assertEqual(foo.run(), self.message)
 
     def test_failure(self):
         self.assertRaises(TypeError, desc.{{cookiecutter.repo_name|lower}}.{{cookiecutter.repo_name}})
