@@ -25,6 +25,10 @@ All rights reserved.
 
 * By default, you get a python `setup` script that works for DM Stack projects. For Level 3 projects that do not depend on the stack, you'll want to bring in your own `setup.py`.
 
+### Repository Access
+
+By default, if you make your repository with LSSTDESC authorship, not everyone in LSSTDESC will be able to see it. You must list the repository under certain teams. To do so, navigate to the *Collaborators* page in Settings, and add the appropriate teams. Unless you know you want to, leave the access levels at "Read".
+
 
 ### Feedback, License etc
 
